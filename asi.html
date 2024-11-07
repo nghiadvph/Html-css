@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="asi.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="asi.js">
+</head>
+<body>
+    <section class="block">
+        <header>
+        <a href="asi.html"><img src="logo.png" ></a> 
+         <ul>
+            <li>
+                <a href="asi.html">Trang chủ</a>
+            </li>
+            <li>
+                <a href="">Bảng giá</a>
+            </li>
+            <li>
+                <a href="">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="">Tin tức</a>
+            </li>
+            <li>
+                <a href="">Liên hệ</a>
+            </li>
+         </ul>
+         <input type="text" placeholder="Tìm kiếm...">
+         <button>Tìm kiếm</button>
+         <section class="taikhoan">
+            <section class="dangnhap">
+                <a href="dangki.html">Đăng kí</a>
+            </section>
+            <section class="dangnhap">
+                <a href="dangnhap.html">Đăng nhập</a>
+            </section>
+            
+            
+         </section>
+        </header>
+        <nav>
+        <img id="anh" src="https://www.carmudi.vn/images/slider/slide-01-desktop.jpg" onclick="next()">
+        <section class="nut">
+            <section class="left" onclick="back()"><i class='bx bx-chevron-left'></i></section>
+            <section class="right" onclick="next()"><i class='bx bx-chevron-right'></i></section>
+            
+        </section>
+        <script src="./asi.js">
+        </script>
+        </nav>
+        <section class="banor">
+            <section class="nor">
+          <h1>Công ty TNHH Mercedes-Ben Việt Nam</h1>
+          <h3>Thành lập: 1995</h3>
+          <p class="a">Với gần 3 thập kỷ đồng hành cùng người dùng Việt Nam, hiểu được vị thế của thương hiệu cũng như kỳ vọng của thị trường, MBV đã không ngừng đẩy mạnh đầu tư và phát triển tại thị trường đầy tiềm năng này. Trải qua nhiều cột mốc đáng nhớ với các dòng xe lắp ráp thành công, MBV đã luôn thiết lập khái niệm đương đại về các chiếc xe xa xỉ. </p>
+          <p>Hai năm 2021-2022 vừa qua là giai đoạn chứng kiến sự đầu tư mạnh mẽ của Mercedes-Benz vào thị trường trong nước, thông qua việc giới thiệu những công nghệ và cải tiến mới. Hãng xe đã đầu tư hơn 33 triệu USD vào các công nghệ sản xuất và dây chuyền lắp ráp tại nhà máy, giúp nâng cao hiệu quả sản xuất, cải thiện độ chính xác, tối ưu hóa mức đầu tư, cũng như giữ vững độ an toàn và chất lượng hàng đầu của mỗi chiếc xe Mercedes-Benz. </p>
+          <p>Hiện nay, Mercedes-Benz Việt Nam đang dẫn đầu thị trường xe sang với 3 dòng xe lắp ráp trong nước là C-Class, E-Class, và GLC. Bên cạnh đó, những dòng xe nhập khẩu khác như S-Class, GLB, GLE, GLS cũng như các thương hiệu con Mercedes-AMG, Mercedes-Maybach, và Mercedes-EQ đều đang nhận được nhiều sự yêu thích và quan tâm của khách hàng Việt Nam.</p>
+          </section>
+          <section class="nguoi">
+            <img src="https://kisama.vn/wp-content/uploads/2021/01/karl-benz-768x512.jpg">
+            <h1>Cha đẻ của Mercedes-Ben</h1>
+          </section>
+        </section>
+        <section class="mau">
+            <img src="https://www.mercedes-benz.com.vn/vi/passengercars/the-brand/mbv/journey/tour/_jcr_content/imagevideogallery/par/imagevideogallerytil_739735072/image.MQ1.12.2x.20200803213151.jpeg">
+        </section>
+        <footer>
+            <section class="chu">
+          <img src="logo.png">
+          <p>Mercedes-Ben: Nền tảng hàng đầu trong lĩnh vực siêu xe tại Việt Nam. Cam kết mang đến cho khách hàng trải nghiệm hoàn toàn minh bạch, nhanh chóng và đáng tin cậy.</p>
+          </section>
+          <section class="ban">
+            <h3>Đăng kí để nhận bản tin</h3>
+            <p>Nhận bản tin để không bỏ lỡ thông tin và khuyến mãi của Mercedes-Ben</p>
+                <input type="email" id="email" onblur="gui()" required>
+                <button onclick="gui()">Gửi</button><br>
+                <span class="loi" id="loi"></span>
+                <script>
+                  var mail=document.getElementById("email");
+                  function gui(){
+                      if(mail.value==""){
+                          document.getElementById("loi").innerHTML="Vui lòng nhập email";
+                      }else{
+                          document.getElementById("loi").innerHTML="";
+                          
+                      }
+                  }
+                </script>
+            <section class="dichvu">
+            <section class="p1">
+                <h2>Dịch vụ</h2>
+                <p>Mua xe ô tô</p>
+                <p>Bán xe ô tô</p>
+                <p>Trở thành cộng tác viên</p>
+                <p>Báo giá cửa hàng</p>
+            </section>
+            <section class="p2">
+                <h2>Hỗ trợ</h2>
+                <p>Mua bảo hiểm ô tô</p>
+                <p>Trả góp mua xe</p>
+                <p>Câu hỏi thường gặp</p>
+                <p>Liên hệ</p>
+            </section>
+            <section class="p3">
+                <h2>Về Mercedes-Ben</h2>
+                <p>Giới thiệu công ty</p>
+                <p>Tin tức</p>
+                <p>Chính sách bảo mật</p>
+                <p>Điều khoản sử dụng</p>
+                <p>Cơ hội việc làm</p>
+                <p>Chứng nhận Mercedes-Ben</p>
+            </section>
+            <section class="p4">
+                <h2>Công ty thành viên</h2>
+                <p>Otos-Trang đăng tin</p>
+                <p>bán xe uy tín tại Việt Nam</p>
+            </section>
+             </section>
+             <section class="cuoi">
+                <p>Công ty Mercsdes-Ben.Hotline: 0368799822</p>
+                <p>Địa chỉ: Tòa P, Trường cao đẳng FPT Polytechnic, Nam Từ Liêm,Hà Nội</p>
+             </section>
+          </section>
+        </footer>
+    </section>
+</body>
+</html>

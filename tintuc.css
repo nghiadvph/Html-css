@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(215,207,45,1) 0%, rgba(30,229,193,1) 47%, rgba(190,16,232,1) 100%);
+}
+header img{
+    width: 110px;
+    height: 60px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a{
+    display: flex;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header ul a:hover{
+    color:aqua ;
+}
+header input{
+    width: 200px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid black;
+    border-right: none;
+}
+
+header button{
+    width: 70px;
+    height: 30px;
+    background-color:turquoise;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+header button:hover{
+    background-color: violet;
+}
+nav{
+    position: relative;
+
+}
+nav .nut{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 40%;
+}
+.nut .left{
+    color: rgb(170, 151, 151);
+    font-size: 50px;
+}
+.nut .right{
+    color: rgb(170, 151, 151);
+    font-size: 50px;
+    margin-left: 1415px;
+}
+
+nav img{
+   width: 100%;
+    height: 500px;
+}
+.banor{
+    width: 1200px;
+    height: 1500px;
+    margin: auto;
+    margin-top:20px ;
+}
+.banor .h1{
+    display: flex;
+    margin-top: 10px;
+}
+.h1 h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+hr{
+    margin-top: 10px;
+    border: 2px solid rgb(147, 146, 148);
+}
+.banor .gach{
+    width: 6px ;
+    height: 30px;
+    background-color:sandybrown;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+}
+.main .h2{
+   width: 70%;
+   height: 600px;
+  
+}
+.h2 .d1 .me{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mai{
+    display: flex;
+    margin-top: 20px;
+}
+.mai .mai1{
+    width: 75%;
+    height: 480px;
+    position: relative;
+}
+.anh img{
+    position: absolute;
+    margin-top: -150px;
+}
+.mai1{
+    display: flex;
+}
+.mai1 .m1{
+    width: 50%;
+    height: 400px; 
+}
+.m1 .m11{
+    display: flex;
+    margin-top: 10px;
+}
+.m11 h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.m1 img{
+height: 200px;
+}
+.m1 .m12{
+    margin-top: 55px;
+    width: 420px;
+}
+.m1 .m13{
+    margin-top: 55px;
+    width: 420px;
+}
+.m12 p{
+    margin-top: 10px;
+}
+.mai .mai2{
+    width: 25%;
+    height: 670px;
+    border: 1px solid black;
+}
+.mai21{
+    display: flex;
+    margin-top: 10px;
+}
+.mai21 .du{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.du p{
+    color: red;
+    font-weight: bold;
+}
+.mai21 img{
+    width: 120px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+}
+.mai21 img:hover{
+    animation: xoay 1s linear;
+}
+@keyframes xoay{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+.mai2 .h1 h1{
+    font-size: 20px;
+}
+.me a{
+    color: darkgrey;
+    margin-top: 20px;
+}
+.h2 .d1{
+    display: flex;
+}
+.h2 .d1 img{
+    margin-top: 10px;
+   width: 450px;
+   height: 250px;
+}
+.d1 img:hover{
+    animation: quay 2s;
+
+}
+.d2{
+    display: flex;
+    margin-top: 20px;
+}
+.d2 .d3{
+    width: 300px;
+    height: 300px;
+}
+
+.d3 .ma{
+    margin-left: 20px;
+    width: 250px;
+}
+.d3 img{
+    width: 240px;
+    height: 150px;
+    margin-left: 18px;
+}
+.d3 img:hover{
+    animation: quay 2s;
+}
+@keyframes quay{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(45deg);
+    }
+}
+.main .h3{
+    width: 30%;
+    height: 600px;
+    margin-left: 25px;
+ }
+ .h3 img{
+    width: 100%;
+    height: 100%;
+ }
+footer{
+    width: 100%;
+    height: 490px;
+   background-color:black;
+   display: flex;
+   margin-top: 30px;
+}
+footer .chu{
+    margin-left: 200px;
+}
+footer .chu img{
+    width:200px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+footer .chu p{
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer .ban .loi{
+    color: red;
+}
+footer .ban{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+footer .ban h3{
+    font-size: 30px;
+}
+footer .ban p{
+    margin-top: 10px;
+}
+footer .ban input{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.ban span{
+    color: red;
+}
+footer .ban button{
+    width: 50px;
+   border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    color: white;
+    background-color: rgb(60, 157, 236);
+}
+footer .ban span{
+    color: white;
+}
+.dichvu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+footer .cuoi{
+    margin-top: 20px;
+}
+footer .p2{
+    margin-left: 40px;
+}
+footer .p3{
+    margin-left: 30px;
+}
+footer .p4{
+    margin-left: 30px;
+}

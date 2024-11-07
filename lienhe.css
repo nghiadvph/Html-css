@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgba(215,207,45,1) 0%, rgba(30,229,193,1) 47%, rgba(190,16,232,1) 100%);
+}
+header img{
+    width: 110px;
+    height: 60px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a{
+    display: flex;
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header ul a:hover{
+    color: aqua;
+}
+header input{
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid black;
+    border-right: none;
+}
+.taikhoan {
+  margin-left: 20px;
+ display: flex;
+}
+.taikhoan .dangnhap{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:burlywood;
+}
+.dangnhap:nth-child(2){
+    margin-left: 5px;
+}
+.dangnhap a{
+    display: flex;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+header button{
+    width: 70px;
+    height: 30px;
+    background-color:turquoise;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+header button:hover{
+    background-color: violet;
+}
+nav{
+    position: relative;
+
+}
+nav .nut{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 40%;
+}
+.nut .left{
+    color: rgb(170, 151, 151);
+    font-size: 50px;
+}
+.nut .right{
+    color: rgb(170, 151, 151);
+    font-size: 50px;
+    margin-left: 1415px;
+}
+
+nav img{
+   width: 100%;
+    height: 500px;
+}
+.banor{
+    width: 500px;
+    height: 500px;
+
+    margin-left: 30px;
+}
+.banor .ban{
+    margin-left: 60px;
+}
+.main{
+    display: flex;
+}
+.bannor1{
+    width: 400px;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 20%;
+    background: linear-gradient(90deg, rgba(60,215,45,1) 0%, rgba(30,30,229,1) 47%, rgba(232,16,97,1) 100%);
+}
+.bannor1 p{
+    color: white;
+}
+.chi p:nth-child(1){
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-family: DancingScript;
+    text-decoration: none;
+}
+.chi p:nth-child(2){
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.chi p:nth-child(3){
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.chi p:nth-child(4){
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chi img{
+    width: 280px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.ban input{
+    width: 380px;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(181, 177, 177);
+}
+.banor button{
+    width: 70px;
+    margin-left: 74%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+    border: rgb(139, 136, 136);
+}
+.banor button:hover{
+    background-color: turquoise;
+}
+.banor .chi{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.banor span{
+    color: red;
+}
+.banor h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: red;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 490px;
+    margin-top: 20px;
+   background-color:black;
+   display: flex;
+}
+@font-face {
+    font-family: DancingScript;
+    src: url('DancingScript-VariableFont_wght.ttf');
+}
+footer .chu{
+    margin-left: 200px;
+}
+footer .chu img{
+    width:200px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+footer .chu p{
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer .ban{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+footer .ban h3{
+    font-size: 30px;
+}
+footer .ban p{
+    margin-top: 10px;
+}
+footer .ban input{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+footer .ban .loi{
+    color: red;
+}
+footer .ban button{
+    width: 50px;
+   border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    color: white;
+    background-color: rgb(60, 157, 236);
+}
+footer .ban span{
+    color: white;
+}
+.dichvu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+footer .cuoi{
+    margin-top: 20px;
+}
+footer .p2{
+    margin-left: 40px;
+}
+footer .p3{
+    margin-left: 30px;
+}
+footer .p4{
+    margin-left: 30px;
+}

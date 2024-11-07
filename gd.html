@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="main">
+    <button onclick="gui()">Gửi</button>
+    <span id="loi"></span>
+    <script>
+        var main=document.getElementById("main");
+        function gui(){
+
+        
+        if(main.value==""){
+            document.getElementById("loi").innerHTML="Bạn chưa nhập";
+        }else{
+            document.getElementById("loi").innerHTML="";
+
+        }
+    }
+    </script>
+</body>
+</html>

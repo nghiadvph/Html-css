@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="gioithie.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="asi.js">
+</head>
+<body>
+    <section class="block">
+        <header>
+        <a href="asi.html"><img src="logo.png" ></a> 
+         <ul>
+            <li>
+                <a href="trangchhu.html">Trang chủ</a>
+            </li>
+            <li>
+                <a href="banggia.html">Bảng giá</a>
+            </li>
+            <li>
+                <a href="gioithieu.html">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="tintuc.html">Tin tức</a>
+            </li>
+            <li>
+                <a href="lienhe.html">Liên hệ</a>
+            </li>
+         </ul>
+         <input type="text" placeholder="Tìm kiếm...">
+         <button>Tìm kiếm</button>
+        </header>
+        <section class="banor">
+            <h1>
+                Giới thiệu về Mercedes-Ben
+            </h1>
+            <section class="h"></section>
+            <section class="d">
+            <section class="a">
+              <p>Mercedes-Ben là thương hiệu uy tín, dẫn đầu thị trường về dịch vụ rao vặt và truyền thông về ngành ô tô tại Việt Nam. Với hai lợi thế cạnh tranh cốt lõi: một là về đội ngũ chuyên môn có kinh nghiệm lâu năm; hai là áp dụng công nghệ hiện đại, giúp mang đến cho khách hàng một trải nghiệm mua bán xe cũ hoàn toàn khác biệt và chuyên nghiệp.</p>
+              <p>Tại Mercedes-Ben, chúng tôi làm việc trực tiếp với người mua và người bán, họ có thể là đại lý, công ty hoặc cá nhân. Từ đó cung cấp các dịch vụ tối ưu như: mua bán xe, thẩm định, thanh toán linh hoạt và nhiều dịch vụ khác để đảm bảo quy trình mua bán xe trở nên dễ dàng hơn.Mercedes-Ben đảm bảo rằng mỗi chiếc xe được bán ra đã được kiểm tra kỹ lưỡng để đảm bảo chất lượng và tính đúng giá trị của nó.</p>
+            </section>
+            <img src="logo.png">
+            </section>
+        </section>
+        <footer>
+            <section class="chu">
+          <img src="logo.png">
+          <p>Mercedes-Ben: Nền tảng hàng đầu trong lĩnh vực siêu xe tại Việt Nam. Cam kết mang đến cho khách hàng trải nghiệm hoàn toàn minh bạch, nhanh chóng và đáng tin cậy.</p>
+          </section>
+          <section class="ban">
+            <h3>Đăng kí để nhận bản tin</h3>
+            <p>Nhận bản tin để không bỏ lỡ thông tin và khuyến mãi của Mercedes-Ben</p>
+            <input type="email" id="email" onblur="gui()">
+                <button onclick="gui()">Gửi</button><br>
+                <span class="loi" id="loi"></span>
+                <script>
+                  var mail=document.getElementById("email");
+                  function gui(){
+                      if(mail.value==""){
+                          document.getElementById("loi").innerHTML="Vui lòng nhập email";
+                      }else{
+                          document.getElementById("loi").innerHTML="";
+                          
+                      }
+                  }
+                </script>
+            <section class="dichvu">
+            <section class="p1">
+                <h2>Dịch vụ</h2>
+                <p>Mua xe ô tô</p>
+                <p>Bán xe ô tô</p>
+                <p>Trở thành cộng tác viên</p>
+                <p>Báo giá cửa hàng</p>
+            </section>
+            <section class="p2">
+                <h2>Hỗ trợ</h2>
+                <p>Mua bảo hiểm ô tô</p>
+                <p>Trả góp mua xe</p>
+                <p>Câu hỏi thường gặp</p>
+                <p>Liên hệ</p>
+            </section>
+            <section class="p3">
+                <h2>Về Mercedes-Ben</h2>
+                <p>Giới thiệu công ty</p>
+                <p>Tin tức</p>
+                <p>Chính sách bảo mật</p>
+                <p>Điều khoản sử dụng</p>
+                <p>Cơ hội việc làm</p>
+                <p>Chứng nhận Mercedes-Ben</p>
+            </section>
+            <section class="p4">
+                <h2>Công ty thành viên</h2>
+                <p>Otos-Trang đăng tin</p>
+                <p>bán xe uy tín tại Việt Nam</p>
+            </section>
+             </section>
+             <section class="cuoi">
+                <p>Công ty Mercsdes-Ben.Hotline: 0368799822</p>
+                <p>Địa chỉ: Tòa P, Trường cao đẳng FPT Polytechnic, Nam Từ Liêm,Hà Nội</p>
+             </section>
+          </section>
+        </footer>
+    </section>
+</body>
+</html>

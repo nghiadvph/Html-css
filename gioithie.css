@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(215,207,45,1) 0%, rgba(30,229,193,1) 47%, rgba(190,16,232,1) 100%);
+}
+header img{
+    width: 110px;
+    height: 60px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul a{
+    display: flex;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+header ul a:hover{
+    color:aqua ;
+}
+header input{
+    width: 200px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid black;
+    border-right: none;
+}
+footer .ban .loi{
+    color: red;
+}
+@font-face {
+    font-family: DancingScript;
+    src: url('DancingScript-VariableFont_wght.ttf');
+}
+header button{
+    width: 70px;
+    height: 30px;
+    background-color:turquoise;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+header button:hover{
+    background-color: violet;
+}
+.banor{
+    width: 100%;
+    height: 450px;
+}
+.banor h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: DancingScript;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.banor .d{
+    display: flex;
+    margin-top: 30px;
+}
+.banor .h{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.banor .d img{
+    width: 600px;
+    height: 330px;
+    
+}
+.banor .d img:hover{
+    animation: quay 2s linear infinite;
+}
+@keyframes quay{
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.banor .a{
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.banor .a p{
+    width: 400px;
+}
+.banor .a p:nth-child(2){
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    height: 490px;
+   background-color:black;
+   display: flex;
+}
+footer .chu{
+    margin-left: 200px;
+}
+footer .chu img{
+    width:200px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+footer .chu p{
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer .ban{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+footer .ban h3{
+    font-size: 30px;
+}
+footer .ban p{
+    margin-top: 10px;
+}
+footer .ban input{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+footer .ban button{
+    width: 50px;
+   border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    color: white;
+    background-color: rgb(60, 157, 236);
+}
+footer .ban span{
+    color: white;
+}
+.dichvu{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+footer .cuoi{
+    margin-top: 20px;
+}
+footer .p2{
+    margin-left: 40px;
+}
+footer .p3{
+    margin-left: 30px;
+}
+footer .p4{
+    margin-left: 30px;
+}
